@@ -1,0 +1,101 @@
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\bin\Debug\CarsApplicationV3.exe.config
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\bin\Debug\CarsApplicationV3.exe
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\bin\Debug\CarsApplicationV3.pdb
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\bin\Debug\CommonServiceLocator.dll
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\obj\Debug\Views\MainWindow.g.cs
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\obj\Debug\Views\LoadVehiclesView.g.cs
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\obj\Debug\Views\UploadVehicleView.g.cs
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\obj\Debug\App.g.cs
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\obj\Debug\CarsApplicationV3_MarkupCompile.cache
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\obj\Debug\CarsApplicationV3_MarkupCompile.lref
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\obj\Debug\App.baml
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\obj\Debug\Views\MainWindow.baml
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\obj\Debug\Views\LoadVehiclesView.baml
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\obj\Debug\Views\UploadVehicleView.baml
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\obj\Debug\CarsApplicationV3.g.resources
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\obj\Debug\CarsApplicationV3.Properties.Resources.resources
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\obj\Debug\CarsApplicationV3.csproj.GenerateResource.Cache
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\obj\Debug\CarsApplicationV3.exe
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\obj\Debug\CarsApplicationV3.pdb
+C:\Users\Deso\documents\visual studio 2015\Projects\CarsApplicationV3\CarsApplicationV3\obj\Debug\CarsApplicationV3.csprojResolveAssemblyReference.cache
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\CarsApplicationV3.exe.config
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\CarsApplicationV3.exe
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\CarsApplicationV3.pdb
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\CommonServiceLocator.dll
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.dll
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\System.Windows.Interactivity.dll
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.pdb
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.xml
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\CarsApplicationV3.csprojResolveAssemblyReference.cache
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\Views\MainWindow.g.cs
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\Views\LoadVehiclesView.g.cs
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\Views\UploadVehicleView.g.cs
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\App.g.cs
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\CarsApplicationV3_MarkupCompile.cache
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\CarsApplicationV3_MarkupCompile.lref
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\App.baml
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\Views\MainWindow.baml
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\Views\LoadVehiclesView.baml
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\Views\UploadVehicleView.baml
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\CarsApplicationV3.g.resources
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\CarsApplicationV3.Properties.Resources.resources
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\CarsApplicationV3.csproj.GenerateResource.cache
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\CarsApplicationV3.csproj.CoreCompileInputs.cache
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\CarsApplicationV3.csproj.CopyComplete
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\CarsApplicationV3.exe
+D:\CODING\Практика\Deso\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\CarsApplicationV3.pdb
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\CarsApplicationV3.exe.config
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\CarsApplicationV3.exe
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\CarsApplicationV3.pdb
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\CarsApplicationV3.exe
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\CarsApplicationV3.pdb
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\CommonServiceLocator.dll
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\CarsApplicationV3.csprojResolveAssemblyReference.cache
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\Views\MainWindow.g.cs
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\Views\LoadVehiclesView.g.cs
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\Views\UploadVehicleView.g.cs
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\App.g.cs
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\CarsApplicationV3_MarkupCompile.cache
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\CarsApplicationV3_MarkupCompile.lref
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\App.baml
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\Views\MainWindow.baml
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\Views\LoadVehiclesView.baml
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\Views\UploadVehicleView.baml
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\CarsApplicationV3.g.resources
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\CarsApplicationV3.Properties.Resources.resources
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\CarsApplicationV3.csproj.GenerateResource.Cache
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\CarsApplicationV3.exe.config
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\CarsApplicationV3.exe
+C:\Users\Deso\Desktop\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\CarsApplicationV3.pdb
+C:\Users\Deso\Desktop\CarsApplicationV3\CarsApplicationV3 - NEWEST\CarsApplicationV3\bin\Debug\CarsApplicationV3.exe.config
+C:\Users\Deso\Desktop\CarsApplicationV3\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\CarsApplicationV3.exe
+C:\Users\Deso\Desktop\CarsApplicationV3\CarsApplicationV3 - NEWEST\CarsApplicationV3\obj\Debug\CarsApplicationV3.pdb

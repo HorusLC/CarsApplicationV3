@@ -1,0 +1,25 @@
+﻿<Application x:Class="CarsApplicationV3.App" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:local="clr-namespace:CarsApplicationV3"
+             StartupUri="Views/MainWindow.xaml" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             d1p1:Ignorable="d" 
+             xmlns:d1p1="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             
+              xmlns:views="clr-namespace:CarsApplicationV3.Views"
+
+             xmlns:vm="clr-namespace:CarsApplicationV3.ViewModel"
+             
+             >
+    
+  <Application.Resources>
+        <vm:ViewModelLocator x:Key="Locator"  />
+        <DataTemplate DataType="{x:Type vm:LoadVehiclesVM}">
+            <views:LoadVehiclesView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:UploadVehicleVM}">
+            <views:UploadVehicleView />
+        </DataTemplate>
+    </Application.Resources>
+</Application>
