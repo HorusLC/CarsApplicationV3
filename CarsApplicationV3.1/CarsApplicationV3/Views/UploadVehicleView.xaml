@@ -5,82 +5,161 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:CarsApplicationV3.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="300" Width="591.2">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+             d:DesignHeight="600" Width="500">
 
+    <Grid HorizontalAlignment="Stretch">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="300*"/>
+            <RowDefinition Height="60*"/>
         </Grid.RowDefinitions>
 
-        <GroupBox Grid.Row="0"  Header="Добавяне на превозно средство" BorderBrush="RoyalBlue" Margin="0,0,0,105" 
-                  Grid.RowSpan="2" HorizontalAlignment="Center" VerticalAlignment="Stretch" >
-            <Grid Grid.Row="1">
+        <GroupBox Grid.Row="0"  Header="Добавяне на превозно средство" BorderBrush="RoyalBlue" HorizontalAlignment="Stretch">
+            <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="20*"/>
+                    <ColumnDefinition Width="20*"/>
+                    <ColumnDefinition Width="20*"/>
+                    <ColumnDefinition Width="17*"/>
                     <ColumnDefinition Width="Auto"/>
-                    <ColumnDefinition Width="Auto"/>
-                    <ColumnDefinition Width="Auto"/>
+
                 </Grid.ColumnDefinitions>
 
                 <Grid.RowDefinitions>
+                    <RowDefinition Height="15*"/>
+                    <RowDefinition Height="34*"/>
+                    <RowDefinition Height="34*"/>
+                    <RowDefinition Height="34*"/>
+                    <RowDefinition Height="34*"/>
+                    <RowDefinition Height="34*"/>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="5*"/>
                     <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+
                 </Grid.RowDefinitions>
 
-                <TextBlock Grid.Column="0" Grid.Row="0"  Text=" Тип:"                 
+                <TextBlock Grid.Column="0" Grid.Row="1"  
+                           Text="Тип:"                 
                            HorizontalAlignment="Center"
                            VerticalAlignment="Top"/>
 
-                <ComboBox Grid.Column="1" Grid.Row="0"            
+                <ComboBox Grid.Column="1"  Grid.Row="1"          
+                          HorizontalAlignment="Center"
+                          VerticalAlignment="Top" 
+                          Width="80" Height="18"/>
+
+                <TextBlock Grid.Column="2" Grid.Row="1" 
+                           Text="Марка:"                 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Top"/>
+
+                <TextBox Grid.Column="3"   Grid.Row="1"               
                            HorizontalAlignment="Center"
                            VerticalAlignment="Top" Width="80"/>
 
-                <TextBlock Grid.Column="2" Grid.Row="0" Text=" Цвят:"                 
+                <TextBlock Grid.Column="4" Grid.Row="1" 
+                           Text="Модел:"                 
                            HorizontalAlignment="Center"
                            VerticalAlignment="Top"/>
 
-                <TextBox Grid.Column="3"   Grid.Row="0"               
-                           HorizontalAlignment="Center"
-                           VerticalAlignment="Top" Width="80"/>
+                <TextBox Grid.Column="5"   Grid.Row="1"               
+                         HorizontalAlignment="Center"
+                         VerticalAlignment="Top" 
+                         Width="80"/>
 
-                <TextBlock Grid.Column="0" Grid.Row="1" Text=" Марка:"                 
-                           HorizontalAlignment="Center"
-                           VerticalAlignment="Top"/>
-
-                <TextBox Grid.Column="1" Grid.Row="1"              
-                           HorizontalAlignment="Center"
-                           VerticalAlignment="Top" Width="80"/>
-
-                <TextBlock Grid.Column="2" Grid.Row="1" Text=" Година:"                 
+                <TextBlock Grid.Column="0" Grid.Row="2" 
+                           Text="Цвят:"                 
                            HorizontalAlignment="Center"
                            VerticalAlignment="Top"/>
 
-                <TextBox Grid.Column="3" Grid.Row="1"            
-                           HorizontalAlignment="Center"
-                           VerticalAlignment="Top" Width="80" />
+                <TextBox Grid.Column="1"  Grid.Row="2"         
+                         HorizontalAlignment="Center"
+                         VerticalAlignment="Top" 
+                         Width="80"/>
 
-                <TextBlock Grid.Column="0" Grid.Row="2" Text=" Модел:"                 
-                           HorizontalAlignment="Center"
-                           VerticalAlignment="Top"/>
-
-                <TextBox Grid.Column="1"   Grid.Row="2"               
-                           HorizontalAlignment="Center"
-                           VerticalAlignment="Top" Width="80"/>
-
-                <TextBlock Grid.Column="2" Grid.Row="2" Text=" L x W x H:"                 
+                <TextBlock Grid.Column="2" Grid.Row="2" 
+                           Text="Година:"                 
                            HorizontalAlignment="Center"
                            VerticalAlignment="Top"/>
 
-                <TextBox Grid.Column="3"   Grid.Row="2"               
-                           HorizontalAlignment="Center"
-                           VerticalAlignment="Top" Width="80"/>
+                <TextBox Grid.Column="3" Grid.Row="2"        
+                         HorizontalAlignment="Center"
+                         VerticalAlignment="Top"
+                         Width="80"/>
 
-                <Button Grid.ColumnSpan="4" Grid.Row="3" Content="Качи снимка" VerticalAlignment="Bottom" />
-                <Button Grid.ColumnSpan="4" Grid.Row="4" Content="Добави превозното средство в БД" VerticalAlignment="Bottom"  />
+                <TextBlock Grid.Column="4" Grid.Row="2" 
+                           Text="Брой места:"                 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Top"/>
+
+                <TextBox Grid.Column="5"   Grid.Row="2"         
+                         HorizontalAlignment="Center"
+                         VerticalAlignment="Top"
+                         Width="80"/>
+
+                <TextBlock Grid.Column="0" Grid.Row="3" 
+                           Text=" Д х Ш х В:"                 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Top"/>
+
+                <TextBox Grid.Column="1"   Grid.Row="3"               
+                         HorizontalAlignment="Center"
+                         VerticalAlignment="Top"
+                         Width="70" />
+
+
+                <TextBlock Grid.Column="2" Grid.Row="3" 
+                           Text= "х"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"/>
+
+                <TextBox Grid.Column="2"   Grid.Row="3"
+                         VerticalAlignment="Top" 
+                         HorizontalAlignment="Center" 
+                         Width="70"/>
+
+                <TextBlock Grid.Column="3" Grid.Row="3" 
+                           Text= "х"                 
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"/>
+
+                <TextBlock Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="3"
+                           Text= "Инфoрмация за пр. средство:"                 
+                           VerticalAlignment="Top" 
+                           Margin="17,0.4,59.2,0"/>
+
+
+                <TextBox Grid.Column="0"   Grid.Row="4" Grid.ColumnSpan="3" Grid.RowSpan="2"
+                         VerticalAlignment="Top" 
+                         HorizontalAlignment="Center" 
+                         Background="Beige"
+                         Width="188" Height="90" 
+                         Margin="17,29.4,34.2,0"
+                         TextWrapping="Wrap"/>
+
+
+
+
+                <TextBox Grid.Column="3"   Grid.Row="3"
+                         VerticalAlignment="Top" 
+                         HorizontalAlignment="Center" 
+                         Width="70"/>
+
+                <TextBlock Grid.Column="4" Grid.Row="3" 
+                           Text= "мм"                 
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"/>
+
+                <Border BorderBrush="Blue" BorderThickness="0.3"  Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="3" Grid.RowSpan="3">
+                    <Image Grid.Row="4" Grid.Column="3"
+                           Grid.ColumnSpan="3" Grid.RowSpan="3"
+                           VerticalAlignment="Bottom"
+                           Margin="5,0,-4.8,14.6"/>
+                </Border>
+
+                <Button Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="8" Content="Качи снимка" VerticalAlignment="Bottom" />
+                <Button Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="9" Content="Добави превозното средство" VerticalAlignment="Bottom" />
 
             </Grid>
 
