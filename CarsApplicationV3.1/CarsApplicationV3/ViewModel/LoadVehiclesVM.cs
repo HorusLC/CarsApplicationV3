@@ -7,6 +7,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Media.Imaging;
 
 namespace CarsApplicationV3.ViewModel
@@ -22,8 +23,15 @@ namespace CarsApplicationV3.ViewModel
         private int year;
         private string color;
         private Vehicle selectedVehicle;
+        private Visibility visible;
+        public Visibility Visible { get { return visible; } set { visible = value; RaisePropertyChanged("Visible"); } }
         public Vehicle SelectedVehicle { get { return selectedVehicle; }
-            set { selectedVehicle = value; } }
+            set {
+                if (selectedVehicle == null) { Visible = Visibility.Visible; }
+                selectedVehicle = value;
+                RaisePropertyChanged("SelectedVehicle");
+
+            } }
         public ObservableCollection<Vehicle> Vehicles { get { return vehicles; }
 
             set { vehicles = value; RaisePropertyChanged("Vehicles"); }
@@ -75,8 +83,9 @@ public string Brand { get { return brand; }
             vehicles.Add(new Models.Vehicle(VehicleType.CAR, "Бял",1, 3.3, 4.2, 3, "Mazda", "3", "New, very nice", 2010, img2));
             vehicles.Add(new Models.Vehicle(VehicleType.CAR, "Оранжев", 2, 3.5, 4.6, 4, "Nissan", "GTR", "Нов внос, пълен пакет екстри", 2014, img3));
             vehicles.Add(new Models.Vehicle(VehicleType.CAR, "Син", 4, 3.1, 4.2, 4, "Chevrolet", "Camaro", "Нов внос, пълен пакет екстри,прекрасен ретро автомобил", 1969, img4));
-
+            Visible = Visibility.Hidden;
         }
+       // private ShowInformation() { }
 
 
     }

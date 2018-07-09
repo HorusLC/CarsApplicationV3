@@ -17,7 +17,7 @@
 
 
 
-        <GroupBox Grid.Column="1" Grid.Row="1" Header="Информация" BorderBrush="RoyalBlue">
+        <GroupBox Grid.Column="1" Grid.Row="1" Header="Информация" BorderBrush="RoyalBlue" Visibility="{Binding Visible}">
             <Grid Grid.Column="1" Grid.Row="1">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
@@ -262,7 +262,7 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <ListView Grid.Row="0" Height="350"  ItemsSource="{Binding Vehicles}" Name="vhcls" >
+            <ListView Grid.Row="0" Height="350"  ItemsSource="{Binding Vehicles}" Name="vhcls" SelectedItem="{Binding SelectedVehicle}">
                 <ListView.ItemTemplate>
 
                     <DataTemplate>
