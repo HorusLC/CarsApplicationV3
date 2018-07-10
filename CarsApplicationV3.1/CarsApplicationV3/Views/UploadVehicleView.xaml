@@ -5,7 +5,8 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:CarsApplicationV3.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="600" Width="500">
+             d:DesignHeight="600" Width="500"
+             xmlns:vm="clr-namespace:CarsApplicationV3.ViewModel">
 
     <Grid HorizontalAlignment="Stretch">
         <Grid.RowDefinitions>
@@ -47,7 +48,10 @@
                 <ComboBox Grid.Column="1"  Grid.Row="1"          
                           HorizontalAlignment="Center"
                           VerticalAlignment="Top" 
-                          Width="80" Height="18"/>
+                          Width="80" Height="18"
+                          ItemsSource="{Binding Type, Mode=TwoWay}"
+                          SelectedItem="{Binding SelectedType, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                          />
 
                 <TextBlock Grid.Column="2" Grid.Row="1" 
                            Text="Марка:"                 
@@ -158,8 +162,17 @@
                            Margin="5,0,-4.8,14.6"/>
                 </Border>
 
-                <Button Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="8" Content="Качи снимка" VerticalAlignment="Bottom" />
-                <Button Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="9" Content="Добави превозното средство" VerticalAlignment="Bottom" />
+                <Button Grid.Column="2" 
+                        Grid.ColumnSpan="2" 
+                        Grid.Row="8" 
+                        Content="Качи снимка" 
+                        VerticalAlignment="Bottom" />
+                <Button Grid.Column="2"
+                        Grid.ColumnSpan="2" 
+                        Grid.Row="9" 
+                        Content="Добави превозното средство" 
+                        VerticalAlignment="Bottom"  
+                        Command="{Binding UploadVehicle}"/>
 
             </Grid>
 
