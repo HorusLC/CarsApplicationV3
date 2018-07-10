@@ -38,7 +38,7 @@ namespace CarsApplicationV3.ViewModel
             LoadVehiclesViewCommand = new RelayCommand(() => ExecuteVehicleDetailsViewCommand());
 
 
-
+            
 
 
             ////if (IsInDesignMode)
