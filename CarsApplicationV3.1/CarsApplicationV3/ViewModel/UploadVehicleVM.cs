@@ -31,7 +31,7 @@ namespace CarsApplicationV3.ViewModel
         {
             //TODO refactor Enum init, because of slow initilization through Casting
            Type= Enum.GetValues(typeof(VehicleType)).Cast<VehicleType>().ToList();
-            //Consider using ObjectDataProvider in XAML
+            //Consider using ObjectDataProvider in XAML 
             
             UploadVehicle = new RelayCommand(() => UploadVehicleF());
 
