@@ -1,12 +1,15 @@
 ﻿using CarsApplicationV3.Models;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using System.Windows.Media.Imaging;
+using Xceed.Wpf.Toolkit;
 
 namespace CarsApplicationV3.ViewModel
 {
@@ -23,10 +26,12 @@ namespace CarsApplicationV3.ViewModel
         private int year;
         private int numOfSeats;
         private double length, width, height;
-
+        private BitmapImage img;
+       
         #endregion
         #region Properties
-        private ICommand UploadVehicle { get; set; }
+        public ICommand UploadVehicle { get; set; }
+        public ICommand LoadImage { get; set; }
         public VehicleType SelectedType
         {
             get { return selectedType; }
@@ -35,18 +40,18 @@ namespace CarsApplicationV3.ViewModel
         public List<VehicleType> Type
         {
             get;
-            set; 
+            set;
         }
-
+        public BitmapImage Img { get { return img; } set { img = value; RaisePropertyChanged("Img"); } }
         public int Year { get { return year; } set { year = value; } }
         public int NumOfSeats { get { return numOfSeats; } set { numOfSeats = value; } }
         public double  Length { get { return length; } set { length = value; } }
         public double  Width { get { return width; } set { width = value; } }
         public double Height { get { return height; } set { height = value; } }
         public string Description { get { return description; } set { description = value; } }
-        public string Model { get { return model; } set { description = value; } }
+        public string Model { get { return model; } set { model = value; } }
         public string Brand { get { return brand; } set { brand = value; } }
-        public string Color { get { return color; } set { color = value; } }
+        public string Color { get { return color; } set { color = value; RaisePropertyChanged("Color"); } }
         #endregion
         #region Constructors
         public UploadVehicleVM()
@@ -56,6 +61,7 @@ namespace CarsApplicationV3.ViewModel
             //Consider using ObjectDataProvider in XAML 
             
             UploadVehicle = new RelayCommand(() => UploadVehicleF());
+            LoadImage = new RelayCommand(() => LoadPicture());
 
 
         }
@@ -65,7 +71,28 @@ namespace CarsApplicationV3.ViewModel
         {
 
         }
+
+        private void LoadPicture()
+        {
+
+            OpenFileDialog op = new OpenFileDialog();
+            op.Title = "Select a picture";
+            op.Filter = "Image files (*.jpg, *.jpeg, *.jpe, *.jfif, *.png) | *.jpg; *.jpeg; *.jpe; *.jfif; *.png";
+            if (op.ShowDialog() == true)
+            {
+                Img = new BitmapImage(new Uri(op.FileName));
+                
+            }
+        }
+
+
+
         #endregion
+
+
+
+
+
 
     }
 }
