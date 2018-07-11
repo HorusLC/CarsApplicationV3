@@ -23,9 +23,10 @@ namespace CarsApplicationV3.ViewModel
         private int year;
         private int numOfSeats;
         private double length, width, height;
-        private ICommand UploadVehicle { get; set; }
+
         #endregion
         #region Properties
+        private ICommand UploadVehicle { get; set; }
         public VehicleType SelectedType
         {
             get { return selectedType; }

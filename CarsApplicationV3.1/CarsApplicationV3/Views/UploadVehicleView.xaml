@@ -47,7 +47,7 @@
                 <ComboBox Grid.Column="1"  Grid.Row="1"          
                           HorizontalAlignment="Center"
                           VerticalAlignment="Top" 
-                          Width="80" Height="18"
+                          Width="80" Height="20"
                          ItemsSource="{Binding Type}" 
                           SelectedItem="{Binding SelectedType}"/>
 
@@ -58,7 +58,8 @@
 
                 <TextBox Grid.Column="3"   Grid.Row="1"               
                            HorizontalAlignment="Center"
-                           VerticalAlignment="Top" Width="80"/>
+                           VerticalAlignment="Top" Width="80"
+                        Text="{Binding Brand}"/>
 
                 <TextBlock Grid.Column="4" Grid.Row="1" 
                            Text="Модел:"                 
@@ -68,7 +69,8 @@
                 <TextBox Grid.Column="5"   Grid.Row="1"               
                          HorizontalAlignment="Center"
                          VerticalAlignment="Top" 
-                         Width="80"/>
+                         Width="80"
+                         Text="{Binding Model}"/>
 
                 <TextBlock Grid.Column="0" Grid.Row="2" 
                            Text="Цвят:"                 
@@ -78,7 +80,8 @@
                 <TextBox Grid.Column="1"  Grid.Row="2"         
                          HorizontalAlignment="Center"
                          VerticalAlignment="Top" 
-                         Width="80"/>
+                         Width="80"
+                         Text="{Binding Color}"/>
 
                 <TextBlock Grid.Column="2" Grid.Row="2" 
                            Text="Година:"                 
@@ -88,7 +91,8 @@
                 <TextBox Grid.Column="3" Grid.Row="2"        
                          HorizontalAlignment="Center"
                          VerticalAlignment="Top"
-                         Width="80"/>
+                         Width="80"
+                         Text="{Binding Year}"/>
 
                 <TextBlock Grid.Column="4" Grid.Row="2" 
                            Text="Брой места:"                 
@@ -98,7 +102,8 @@
                 <TextBox Grid.Column="5"   Grid.Row="2"         
                          HorizontalAlignment="Center"
                          VerticalAlignment="Top"
-                         Width="80"/>
+                         Width="80"
+                         Text="{Binding NumOfSeats}"/>
 
                 <TextBlock Grid.Column="0" Grid.Row="3" 
                            Text=" Д х Ш х В:"                 
@@ -108,7 +113,8 @@
                 <TextBox Grid.Column="1"   Grid.Row="3"               
                          HorizontalAlignment="Center"
                          VerticalAlignment="Top"
-                         Width="70" />
+                         Width="70" 
+                         Text="{Binding Length}"/>
 
 
                 <TextBlock Grid.Column="2" Grid.Row="3" 
@@ -119,7 +125,8 @@
                 <TextBox Grid.Column="2"   Grid.Row="3"
                          VerticalAlignment="Top" 
                          HorizontalAlignment="Center" 
-                         Width="70"/>
+                         Width="70"
+                         Text="{Binding Width}"/>
 
                 <TextBlock Grid.Column="3" Grid.Row="3" 
                            Text= "х"                 
@@ -138,7 +145,8 @@
                          Background="Beige"
                          Width="188" Height="90" 
                          Margin="17,29.4,34.2,0"
-                         TextWrapping="Wrap"/>
+                         TextWrapping="Wrap"
+                         Text="{Binding Description}"/>
 
 
 
@@ -146,7 +154,8 @@
                 <TextBox Grid.Column="3"   Grid.Row="3"
                          VerticalAlignment="Top" 
                          HorizontalAlignment="Center" 
-                         Width="70"/>
+                         Width="70"
+                         Text="{Binding Height}"/>
 
                 <TextBlock Grid.Column="4" Grid.Row="3" 
                            Text= "мм"                 
@@ -161,7 +170,7 @@
                 </Border>
 
                 <Button Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="8" Content="Качи снимка" VerticalAlignment="Bottom" />
-                <Button Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="9" Content="Добави превозното средство" VerticalAlignment="Bottom" />
+                <Button Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="9" Content="Добави превозното средство" VerticalAlignment="Bottom" Command="{Binding UploadVehicle}" />
 
             </Grid>
 
