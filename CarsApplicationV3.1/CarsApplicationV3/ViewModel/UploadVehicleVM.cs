@@ -69,6 +69,7 @@ namespace CarsApplicationV3.ViewModel
         #region Methods
         private void UploadVehicleF()
         {
+            Vehicle v = new Vehicle(selectedType, Color, NumOfSeats, Height, Width, Length, Brand, Model, Description, Year, Img);
 
         }
 
