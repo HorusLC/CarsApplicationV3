@@ -47,7 +47,9 @@
                 <ComboBox Grid.Column="1"  Grid.Row="1"          
                           HorizontalAlignment="Center"
                           VerticalAlignment="Top" 
-                          Width="80" Height="18"/>
+                          Width="80" Height="18"
+                         ItemsSource="{Binding Type}" 
+                          SelectedItem="{Binding SelectedType}"/>
 
                 <TextBlock Grid.Column="2" Grid.Row="1" 
                            Text="Марка:"                 

@@ -14,8 +14,8 @@ namespace CarsApplicationV3.ViewModel
 {
     class LoadVehiclesVM:ViewModelBase
     {
+        #region Definitions
         private ObservableCollection<Vehicle> vehicles;
-       
         private string type;
         private string brand;
         private string model;
@@ -24,6 +24,8 @@ namespace CarsApplicationV3.ViewModel
         private string color;
         private Vehicle selectedVehicle;
         private Visibility visible;
+        #endregion
+        #region Properties
         public Visibility Visible { get { return visible; } set { visible = value; RaisePropertyChanged("Visible"); } }
         public Vehicle SelectedVehicle { get { return selectedVehicle; }
             set {
@@ -66,8 +68,8 @@ public string Brand { get { return brand; }
         public string Color { get { return color; }
         set { color = value; RaisePropertyChanged("Color"); }
         }
-
-
+        #endregion
+        #region Constructors
         public LoadVehiclesVM(){
             vehicles = new ObservableCollection<Vehicle>();
             BitmapImage img = new BitmapImage(new Uri(@"/images/shelby.jpg",UriKind.Relative));
@@ -85,7 +87,8 @@ public string Brand { get { return brand; }
             vehicles.Add(new Models.Vehicle(VehicleType.CAR, "Син", 4, 3.1, 4.2, 4, "Chevrolet", "Camaro", "Нов внос, пълен пакет екстри,прекрасен ретро автомобил", 1969, img4));
             Visible = Visibility.Hidden;
         }
-       // private ShowInformation() { }
+        #endregion
+        // private ShowInformation() { }
 
 
     }
