@@ -14,7 +14,6 @@ namespace CarsApplicationV3.ViewModel
 {
     class LoadVehiclesVM:ViewModelBase
     {
-        #region Definitions
         private ObservableCollection<Vehicle> vehicles;
        
         private string type;
@@ -25,10 +24,7 @@ namespace CarsApplicationV3.ViewModel
         private string color;
         private Vehicle selectedVehicle;
         private Visibility visible;
-        #endregion
-        public Visibility Visible { get { return visible; }
-            set { visible = value;
-                RaisePropertyChanged("Visible"); } }
+        public Visibility Visible { get { return visible; } set { visible = value; RaisePropertyChanged("Visible"); } }
         public Vehicle SelectedVehicle { get { return selectedVehicle; }
             set {
                 if (selectedVehicle == null) { Visible = Visibility.Visible; }
@@ -74,16 +70,15 @@ public string Brand { get { return brand; }
 
         public LoadVehiclesVM(){
             vehicles = new ObservableCollection<Vehicle>();
-            #region InitImages
             BitmapImage img = new BitmapImage(new Uri(@"/images/shelby.jpg",UriKind.Relative));
             BitmapImage img2 = new BitmapImage(new Uri(@"/images/mazda3.jpg",UriKind.Relative));
             BitmapImage img3 = new BitmapImage(new Uri(@"/images/nissangtr.jpg", UriKind.Relative));
             BitmapImage img4 = new BitmapImage(new Uri(@"/images/chevroletcamaro.jpg", UriKind.Relative));
             //  BitmapImage img5= new BitmapImage(new Uri())
             // img.UriSource=
-            //  BitmapImage img = new BitmapImage();
-            // img.UriSource = new Uri( @"/images/shelby.jpg");
-            #endregion
+          //  BitmapImage img = new BitmapImage();
+           // img.UriSource = new Uri( @"/images/shelby.jpg");
+
             vehicles.Add(new Models.Vehicle(VehicleType.CAR,"Син", 2, 2, 4, 3, "Ford", "Shelby", "New, very nice, cosmetic issues", 2015, img));
             vehicles.Add(new Models.Vehicle(VehicleType.CAR, "Бял",1, 3.3, 4.2, 3, "Mazda", "3", "New, very nice", 2010, img2));
             vehicles.Add(new Models.Vehicle(VehicleType.CAR, "Оранжев", 2, 3.5, 4.6, 4, "Nissan", "GTR", "Нов внос, пълен пакет екстри", 2014, img3));
