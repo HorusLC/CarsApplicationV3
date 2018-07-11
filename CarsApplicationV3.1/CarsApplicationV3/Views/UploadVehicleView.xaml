@@ -76,7 +76,7 @@
                          Width="80"
                          Text="{Binding Model}"/>
 
-                <TextBlock Grid.Column="0" Grid.Row="2" 
+                <TextBlock Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" 
                            Text="Цвят:"                 
                            HorizontalAlignment="Center"
                            VerticalAlignment="Top"/>
@@ -88,22 +88,24 @@
                          Text="{Binding Color}"/>-->
 
                 <TextBlock Grid.Column="2" Grid.Row="2" 
+                           Grid.ColumnSpan="2"
                            Text="Година:"                 
                            HorizontalAlignment="Center"
                            VerticalAlignment="Top"/>
 
-                <TextBox Grid.Column="3" Grid.Row="2"        
+                <TextBox Grid.Column="2" Grid.Row="2" 
+                         Grid.ColumnSpan="2"
                          HorizontalAlignment="Center"
                          VerticalAlignment="Center"
                          Width="80"
                          Text="{Binding Year}"/>
 
-                <TextBlock Grid.Column="4" Grid.Row="2" 
+                <TextBlock Grid.Column="4" Grid.Row="2" Grid.ColumnSpan="2" 
                            Text="Брой места:"                 
                            HorizontalAlignment="Center"
                            VerticalAlignment="Top"/>
 
-                <TextBox Grid.Column="5"   Grid.Row="2"         
+                <TextBox Grid.Column="4"   Grid.Row="2" Grid.ColumnSpan="2"        
                          HorizontalAlignment="Center"
                          VerticalAlignment="Center"
                          Width="80"
