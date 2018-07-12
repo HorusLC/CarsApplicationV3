@@ -6,7 +6,9 @@
              xmlns:local="clr-namespace:CarsApplicationV3.Views"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300"
-             xmlns:vm="clr-namespace:CarsApplicationV3.ViewModel">
+             xmlns:vm="clr-namespace:CarsApplicationV3.ViewModel"
+             xmlns:wpfx="http://schemas.xceed.com/wpf/xaml/toolkit"
+>
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -142,6 +144,7 @@
               
                 
                 />
+                <!--<wpfx:ColorPicker Grid.Column="1" Grid.Row="1" Width="50" Height="20" VerticalAlignment="Bottom" SelectedColor="{Binding SelectedColor,Mode=OneWayToSource,UpdateSourceTrigger=PropertyChanged}" />-->
                 <TextBlock
                
              Grid.Column="1"
@@ -152,9 +155,12 @@
                 VerticalAlignment="Center"
                 Margin="0,14,0,0"
                 Opacity="30" 
-                  Text="{Binding SelectedItem.Color,ElementName=vhcls}"
+                  
                 TextAlignment="Center"
-                >
+                    Background="{Binding SelectedColor,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+              Text="{Binding SelectedItem.Color,ElementName=vhcls}"
+                    >
+                    
 
 
 

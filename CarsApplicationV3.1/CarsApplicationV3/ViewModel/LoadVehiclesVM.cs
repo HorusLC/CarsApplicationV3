@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
 namespace CarsApplicationV3.ViewModel
@@ -15,6 +16,7 @@ namespace CarsApplicationV3.ViewModel
     class LoadVehiclesVM:ViewModelBase
     {
         #region Definitions
+        private SolidColorBrush visualizationColor;
         private ObservableCollection<Vehicle> vehicles;
         private string type;
         private string brand;
@@ -26,11 +28,13 @@ namespace CarsApplicationV3.ViewModel
         private Visibility visible;
         #endregion
         #region Properties
+        public SolidColorBrush SelectedColor { get { return visualizationColor; } set { visualizationColor = value; RaisePropertyChanged("SelectedColor"); } }
         public Visibility Visible { get { return visible; } set { visible = value; RaisePropertyChanged("Visible"); } }
         public Vehicle SelectedVehicle { get { return selectedVehicle; }
             set {
                 if (selectedVehicle == null) { Visible = Visibility.Visible; }
                 selectedVehicle = value;
+                SelectedColor = convertColor(selectedVehicle.Color);
                 RaisePropertyChanged("SelectedVehicle");
 
             } }
@@ -81,15 +85,25 @@ public string Brand { get { return brand; }
           //  BitmapImage img = new BitmapImage();
            // img.UriSource = new Uri( @"/images/shelby.jpg");
 
-            vehicles.Add(new Models.Vehicle(VehicleType.CAR,"Син", 2, 2, 4, 3, "Ford", "Shelby", "New, very nice, cosmetic issues", 2015, img));
-            vehicles.Add(new Models.Vehicle(VehicleType.CAR, "Бял",1, 3.3, 4.2, 3, "Mazda", "3", "New, very nice", 2010, img2));
+
+            //ColorName must be in hex or defined Windows colors
+            vehicles.Add(new Models.Vehicle(VehicleType.CAR, "#FFDFD991", 2, 2, 4, 3, "Ford", "Shelby", "New, very nice, cosmetic issues", 2015, img));
+            vehicles.Add(new Models.Vehicle(VehicleType.CAR, "#35AFAF", 1, 3.3, 4.2, 3, "Mazda", "3", "New, very nice", 2010, img2));
             vehicles.Add(new Models.Vehicle(VehicleType.CAR, "Оранжев", 2, 3.5, 4.6, 4, "Nissan", "GTR", "Нов внос, пълен пакет екстри", 2014, img3));
             vehicles.Add(new Models.Vehicle(VehicleType.CAR, "Син", 4, 3.1, 4.2, 4, "Chevrolet", "Camaro", "Нов внос, пълен пакет екстри,прекрасен ретро автомобил", 1969, img4));
             Visible = Visibility.Hidden;
         }
         #endregion
-        // private ShowInformation() { }
-
-
+        #region Methods
+        private SolidColorBrush convertColor(string hex)
+        {
+            BrushConverter bc = new BrushConverter();
+            return (SolidColorBrush)bc.ConvertFrom(hex);
+        }
+        #endregion
     }
+
+
+
+
 }
