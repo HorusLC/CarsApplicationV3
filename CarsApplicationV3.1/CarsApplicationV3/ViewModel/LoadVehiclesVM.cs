@@ -27,6 +27,7 @@ namespace CarsApplicationV3.ViewModel
         private Vehicle selectedVehicle;
         private Visibility visible;
         #endregion
+       
         #region Properties
         public SolidColorBrush SelectedColor { get { return visualizationColor; } set { visualizationColor = value; RaisePropertyChanged("SelectedColor"); } }
         public Visibility Visible { get { return visible; } set { visible = value; RaisePropertyChanged("Visible"); } }
@@ -94,11 +95,13 @@ public string Brand { get { return brand; }
             Visible = Visibility.Hidden;
         }
         #endregion
+        //Exception in brush init
         #region Methods
         private SolidColorBrush convertColor(string hex)
         {
-            BrushConverter bc = new BrushConverter();
-            return (SolidColorBrush)bc.ConvertFrom(hex);
+            //  BrushConverter bc = new BrushConverter();
+            // return (SolidColorBrush)bc.ConvertFrom(hex);
+            return new SolidColorBrush(Colors.Azure);
         }
         #endregion
     }

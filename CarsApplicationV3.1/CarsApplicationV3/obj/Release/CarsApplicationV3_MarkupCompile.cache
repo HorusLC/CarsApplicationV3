@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\Deso\Source\Repos\HorusLC\CarsApplicationV3\CarsApplicationV3.1\CarsApplicationV3\obj\Debug\
+C:\Users\Deso\Source\Repos\HorusLC\CarsApplicationV3\CarsApplicationV3.1\CarsApplicationV3\obj\Release\
 CarsApplicationV3
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\Deso\Source\Repos\HorusLC\CarsApplicationV3\CarsApplicationV3.1\CarsApplicationV3\App.xaml
 3-2134926619
 
@@ -16,5 +16,5 @@ C:\Users\Deso\Source\Repos\HorusLC\CarsApplicationV3\CarsApplicationV3.1\CarsApp
 751039212223
 Views\MainWindow.xaml;Views\LoadVehiclesView.xaml;Views\UploadVehicleView.xaml;
 
-False
+True
 
